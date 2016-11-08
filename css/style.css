@@ -1,0 +1,1552 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Conv_GothaProBla';
+  src: url("../fonts/GothaProBla.eot");
+  src: local("тШ║"), url("../fonts/GothaProBla.woff") format("woff"), url("../fonts/GothaProBla.ttf") format("truetype"), url("../fonts/GothaProBla.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_GothaProBol';
+  src: url("../fonts/GothaProBol.eot");
+  src: local("тШ║"), url("../fonts/GothaProBol.woff") format("woff"), url("../fonts/GothaProBol.ttf") format("truetype"), url("../fonts/GothaProBol.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_GothaProReg';
+  src: url("../fonts/GothaProReg.eot");
+  src: local("тШ║"), url("../fonts/GothaProReg.woff") format("woff"), url("../fonts/GothaProReg.ttf") format("truetype"), url("../fonts/GothaProReg.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 25, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* line 37, ../sass/style.scss */
+.allSectTitles {
+  font-family: 'Conv_GothaProBol';
+  text-transform: uppercase;
+  text-align: center;
+  padding: 60px 0;
+  font-size: 22px;
+  line-height: 45px;
+}
+
+/* line 46, ../sass/style.scss */
+.myBtnStyle {
+  font-family: 'Conv_GothaProBol';
+  background: #0782d4;
+  border: none;
+  width: 88%;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  transition: all .3s;
+}
+/* line 56, ../sass/style.scss */
+.myBtnStyle:hover {
+  background: #60A8D4;
+}
+
+/* line 61, ../sass/style.scss */
+.container {
+  width: 1000px;
+}
+
+/* line 65, ../sass/style.scss */
+.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before,
+.slick-prev:before, .slick-next:before {
+  display: none;
+}
+
+/* line 71, ../sass/style.scss */
+.formBoxAll .formBox {
+  width: 98%;
+  background: #d7d7d5;
+  padding: 15px 0;
+  margin-left: auto;
+  text-align: center;
+}
+/* line 78, ../sass/style.scss */
+.formBoxAll .formBox .titlesForm {
+  font-family: 'Conv_GothaProBol';
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+/* line 84, ../sass/style.scss */
+.formBoxAll .formBox .telephoneForm {
+  outline: none !important;
+  width: 88%;
+  height: 50px;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 93, ../sass/style.scss */
+.formBoxAll .formBox .textProject {
+  outline: none !important;
+  width: 88%;
+  height: 50px;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 102, ../sass/style.scss */
+.formBoxAll .formBox .formText {
+  font-family: 'Conv_GothaProBol';
+}
+/* line 106, ../sass/style.scss */
+.formBoxAll .formBox .bottomTextForm {
+  margin-top: 12px;
+}
+
+@media (max-width: 1200px) {
+  /* line 113, ../sass/style.scss */
+  .container {
+    width: 970px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 119, ../sass/style.scss */
+  .container {
+    width: 740px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 125, ../sass/style.scss */
+  .container {
+    width: 100%;
+  }
+}
+/* line 130, ../sass/style.scss */
+.wrapperHeader {
+  padding: 15px 0 15px 0;
+}
+/* line 133, ../sass/style.scss */
+.wrapperHeader .logo {
+  position: relative;
+}
+/* line 136, ../sass/style.scss */
+.wrapperHeader .logo img {
+  width: 230px;
+  height: 170px;
+  margin-top: -40px;
+  margin-left: -15px;
+}
+/* line 143, ../sass/style.scss */
+.wrapperHeader .logo .logoText {
+  font-family: 'Conv_GothaProReg';
+  position: absolute;
+  top: 6px;
+  right: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+/* line 154, ../sass/style.scss */
+.wrapperHeader .telephoneHeader {
+  text-align: right;
+}
+/* line 157, ../sass/style.scss */
+.wrapperHeader .telephoneHeader .telephoneNumber {
+  font-family: 'Conv_GothaProReg';
+  font-size: 24px;
+  margin-bottom: 0;
+}
+/* line 163, ../sass/style.scss */
+.wrapperHeader .telephoneHeader .timeWork {
+  font-family: 'Conv_GothaProBol';
+  font-size: 12px;
+}
+@media (max-width: 767px) {
+  /* line 171, ../sass/style.scss */
+  .wrapperHeader .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+  }
+  /* line 177, ../sass/style.scss */
+  .wrapperHeader .logo img {
+    width: 100%;
+  }
+  /* line 182, ../sass/style.scss */
+  .wrapperHeader .telephoneHeader {
+    text-align: center;
+  }
+}
+
+/* line 188, ../sass/style.scss */
+.backgroundSect1 {
+  margin-top: -50px;
+  background: url("../img/sect1back.jpg") no-repeat center;
+}
+/* line 192, ../sass/style.scss */
+.backgroundSect1 .titlesOKB {
+  font-family: 'Conv_GothaProBol';
+  padding-top: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+/* line 201, ../sass/style.scss */
+.backgroundSect1 .titlesMin {
+  font-family: 'Conv_GothaProReg';
+  text-align: center;
+  text-transform: uppercase;
+  color: #888888;
+  margin-bottom: 60px;
+  font-size: 21px;
+}
+/* line 211, ../sass/style.scss */
+.backgroundSect1 .slidersBox .slick-slide {
+  outline: none !important;
+}
+/* line 215, ../sass/style.scss */
+.backgroundSect1 .slidersBox .slideTop_01 {
+  height: 350px;
+  background: url("../img/slideOne.jpg") no-repeat center;
+  background-size: cover;
+}
+/* line 221, ../sass/style.scss */
+.backgroundSect1 .slidersBox .slick-prev {
+  background: url("../img/leftArrow.png") no-repeat center;
+  left: 0;
+  width: 26px;
+  height: 43px;
+  z-index: 1000;
+}
+/* line 229, ../sass/style.scss */
+.backgroundSect1 .slidersBox .slick-next {
+  background: url("../img/rightArrow.png") no-repeat center;
+  right: 0;
+  width: 26px;
+  height: 43px;
+}
+/* line 237, ../sass/style.scss */
+.backgroundSect1 .slidersBox .slick-dots li {
+  width: 5px;
+}
+/* line 241, ../sass/style.scss */
+.backgroundSect1 .slidersBox .slick-dots li button:before {
+  opacity: 1;
+  font-size: 10px;
+  color: #93c5e8;
+}
+/* line 251, ../sass/style.scss */
+.backgroundSect1 .slidersBox .slick-dots .slick-active button:before {
+  color: #0782d4;
+  font-size: 16px;
+}
+/* line 260, ../sass/style.scss */
+.backgroundSect1 .infoTopBlockAll {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+}
+/* line 265, ../sass/style.scss */
+.backgroundSect1 .infoTopBlockAll .infoTopTitiles {
+  font-family: 'Conv_GothaProBol';
+  margin-bottom: 10px;
+}
+/* line 270, ../sass/style.scss */
+.backgroundSect1 .infoTopBlockAll .infoTopText {
+  font-family: 'Conv_GothaProBol';
+  font-size: 12px;
+  color: #4d585e;
+}
+/* line 276, ../sass/style.scss */
+.backgroundSect1 .infoTopBlockAll .leftTopInfo {
+  padding-left: 70px;
+  position: relative;
+  padding-right: 0;
+}
+/* line 281, ../sass/style.scss */
+.backgroundSect1 .infoTopBlockAll .leftTopInfo:before {
+  position: absolute;
+  content: '';
+  left: 5px;
+  top: 0;
+  background: url(../img/pencel.png) no-repeat center;
+  width: 54px;
+  height: 52px;
+}
+/* line 292, ../sass/style.scss */
+.backgroundSect1 .infoTopBlockAll .middleTopInfo {
+  padding-left: 70px;
+  position: relative;
+  padding-right: 0;
+  margin-left: -30px;
+}
+/* line 298, ../sass/style.scss */
+.backgroundSect1 .infoTopBlockAll .middleTopInfo:before {
+  position: absolute;
+  content: '';
+  left: 5px;
+  top: 0;
+  background: url("../img/disc.png") no-repeat center;
+  width: 54px;
+  height: 52px;
+}
+/* line 309, ../sass/style.scss */
+.backgroundSect1 .infoTopBlockAll .rightTopInfo {
+  padding-left: 50px;
+  position: relative;
+}
+/* line 313, ../sass/style.scss */
+.backgroundSect1 .infoTopBlockAll .rightTopInfo:before {
+  position: absolute;
+  content: '';
+  left: -6px;
+  top: 0;
+  background: url("../img/list.png") no-repeat center;
+  width: 54px;
+  height: 62px;
+}
+
+/* line 328, ../sass/style.scss */
+.wrapperTopGalery {
+  display: flex;
+  padding-bottom: 50px;
+}
+/* line 332, ../sass/style.scss */
+.wrapperTopGalery .blockTopGaleryIns {
+  width: 130px;
+  height: 128px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 14px;
+}
+/* line 341, ../sass/style.scss */
+.wrapperTopGalery .blockTopGaleryIns .borderInsetBlock {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border: 1px solid #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: all .3s;
+}
+/* line 354, ../sass/style.scss */
+.wrapperTopGalery .blockTopGaleryIns .galTextblockIns {
+  font-family: 'Conv_GothaProBol';
+  margin: auto;
+  width: 100%;
+  background: #f3f1f0;
+  height: 65px;
+  display: flex;
+  transition: all .6s;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+/* line 366, ../sass/style.scss */
+.wrapperTopGalery .blockTopGaleryIns .galTextblockIns .insertTextGal {
+  font-family: 'Conv_GothaProBol';
+  width: 100%;
+  margin: auto;
+  transition: all .6s;
+}
+/* line 375, ../sass/style.scss */
+.wrapperTopGalery .blockTopGaleryIns:hover .borderInsetBlock {
+  width: 129px;
+  height: 127px;
+}
+/* line 380, ../sass/style.scss */
+.wrapperTopGalery .blockTopGaleryIns:hover .galTextblockIns {
+  opacity: 0;
+}
+/* line 383, ../sass/style.scss */
+.wrapperTopGalery .blockTopGaleryIns:hover .galTextblockIns .insertTextGal {
+  margin-top: -100px;
+}
+/* line 390, ../sass/style.scss */
+.wrapperTopGalery .gal1 {
+  background: url("../img/gal1.png") no-repeat center;
+  margin-left: 0;
+}
+/* line 395, ../sass/style.scss */
+.wrapperTopGalery .gal2 {
+  background: url("../img/gal2.jpg") no-repeat center;
+}
+/* line 399, ../sass/style.scss */
+.wrapperTopGalery .gal3 {
+  background: url("../img/gal3.jpg") no-repeat center;
+}
+/* line 403, ../sass/style.scss */
+.wrapperTopGalery .gal4 {
+  background: url("../img/gal4.jpg") no-repeat center;
+}
+/* line 407, ../sass/style.scss */
+.wrapperTopGalery .gal5 {
+  background: url("../img/gal5.jpg") no-repeat center;
+}
+/* line 411, ../sass/style.scss */
+.wrapperTopGalery .gal6 {
+  background: url("../img/gal6.jpg") no-repeat center;
+}
+/* line 415, ../sass/style.scss */
+.wrapperTopGalery .gal7 {
+  background: url("../img/gal7.jpg") no-repeat center;
+}
+
+/* line 421, ../sass/style.scss */
+.galery2Wrapper .leftIconSlide2 {
+  padding: 0;
+}
+/* line 424, ../sass/style.scss */
+.galery2Wrapper .leftIconSlide2 .blockGal2All {
+  background: #d7d7d5;
+  display: flex;
+  width: 130px;
+  height: 130px;
+  position: relative;
+  margin-right: 13px;
+  margin-bottom: 13px;
+  float: left;
+}
+/* line 434, ../sass/style.scss */
+.galery2Wrapper .leftIconSlide2 .blockGal2All:nth-child(3n+3) {
+  margin-right: 0;
+}
+/* line 438, ../sass/style.scss */
+.galery2Wrapper .leftIconSlide2 .blockGal2All .topGal2Border {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid #fff;
+  border-bottom: none;
+  width: 110px;
+  height: 30px;
+}
+/* line 450, ../sass/style.scss */
+.galery2Wrapper .leftIconSlide2 .blockGal2All .botGal2Border {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid #fff;
+  border-top: none;
+  width: 110px;
+  height: 30px;
+}
+/* line 462, ../sass/style.scss */
+.galery2Wrapper .leftIconSlide2 .blockGal2All .textOpisGal2 {
+  font-family: 'Conv_GothaProBol';
+  margin: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 13.5px;
+}
+/* line 472, ../sass/style.scss */
+.galery2Wrapper .rightIconSlide2 {
+  padding-left: 50px;
+}
+/* line 475, ../sass/style.scss */
+.galery2Wrapper .rightIconSlide2 .slider2Titles {
+  font-family: 'Conv_GothaProReg';
+  text-transform: uppercase;
+  font-size: 21px;
+}
+/* line 483, ../sass/style.scss */
+.galery2Wrapper .slider2 .slider2_1 {
+  background: url("../img/gal2-1.jpg") no-repeat center;
+  height: 310px;
+}
+/* line 488, ../sass/style.scss */
+.galery2Wrapper .slider2 .slick-prev {
+  background: url("../img/leftArrow.png") no-repeat center;
+  left: 0;
+  width: 26px;
+  height: 43px;
+  z-index: 1000;
+}
+/* line 496, ../sass/style.scss */
+.galery2Wrapper .slider2 .slick-next {
+  background: url("../img/rightArrow.png") no-repeat center;
+  right: 0;
+  width: 26px;
+  height: 43px;
+}
+/* line 504, ../sass/style.scss */
+.galery2Wrapper .botSlide2Text {
+  font-family: 'Conv_GothaProReg';
+  color: #6f7c84;
+  line-height: 18px;
+  margin: 9px 0 0 0;
+  font-size: 13px;
+}
+
+/* line 513, ../sass/style.scss */
+.positionBg_4 {
+  position: relative;
+  height: 400px;
+  background: #f8f8f8;
+  margin-top: 60px;
+}
+/* line 519, ../sass/style.scss */
+.positionBg_4 .bg_4 {
+  background: url(../img/bg_4.png) no-repeat;
+  background-position: center;
+  height: 400px;
+  margin-left: -780px;
+  margin-right: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* line 531, ../sass/style.scss */
+.positionBg_4 .sect4WrapperAll {
+  display: flex;
+}
+/* line 534, ../sass/style.scss */
+.positionBg_4 .sect4WrapperAll .s4LeftText {
+  display: flex;
+  padding: 0;
+}
+/* line 538, ../sass/style.scss */
+.positionBg_4 .sect4WrapperAll .s4LeftText .sect4LeftText {
+  font-family: 'Conv_GothaProReg';
+  margin: auto;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 0;
+}
+/* line 549, ../sass/style.scss */
+.positionBg_4 .secondFormBg .formBox {
+  background: none;
+  width: 90%;
+}
+/* line 553, ../sass/style.scss */
+.positionBg_4 .secondFormBg .formBox .telephoneForm,
+.positionBg_4 .secondFormBg .formBox .textProject {
+  border: 1px solid #d5d5d5;
+}
+
+/* line 561, ../sass/style.scss */
+.wrapperProject {
+  padding-bottom: 30px;
+}
+/* line 566, ../sass/style.scss */
+.wrapperProject .leftDocuments .docTtiles,
+.wrapperProject .rightDocuments .docTtiles {
+  font-family: 'Conv_GothaProBol';
+  margin: 0 0 20px 0;
+  font-size: 24px;
+}
+/* line 572, ../sass/style.scss */
+.wrapperProject .leftDocuments .docAll,
+.wrapperProject .rightDocuments .docAll {
+  padding: 0;
+  padding-right: 50px;
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+/* line 578, ../sass/style.scss */
+.wrapperProject .leftDocuments .docAll li,
+.wrapperProject .rightDocuments .docAll li {
+  font-family: 'Conv_GothaProReg';
+  font-size: 18px;
+}
+/* line 582, ../sass/style.scss */
+.wrapperProject .leftDocuments .docAll li .bigDoc,
+.wrapperProject .rightDocuments .docAll li .bigDoc {
+  font-family: 'Conv_GothaProBol';
+}
+
+/* line 590, ../sass/style.scss */
+.costBg {
+  background: url("../img/costbg.jpg") no-repeat center;
+  height: 259px;
+  margin-bottom: 40px;
+}
+
+/* line 600, ../sass/style.scss */
+.titleCost {
+  font-family: 'Conv_GothaProReg';
+  text-transform: uppercase;
+  text-align: center;
+  margin: 25px auto 20px auto;
+  display: block;
+}
+
+/* line 610, ../sass/style.scss */
+.formCost .miniTitleCost {
+  font-family: 'Conv_GothaProBol';
+  text-align: center;
+  margin: 20px 0 35px 0;
+}
+/* line 616, ../sass/style.scss */
+.formCost .bottomTextCost {
+  font-family: 'Conv_GothaProReg';
+  text-align: center;
+  color: #6f7c84;
+  margin-top: 20px;
+}
+
+/* line 624, ../sass/style.scss */
+.allInputBlocks {
+  display: flex;
+}
+/* line 627, ../sass/style.scss */
+.allInputBlocks .blockInputFile {
+  position: relative;
+  width: 200px;
+  overflow: hidden;
+  height: 40px;
+  border: 1px solid #d5d5d5;
+  background: white;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+  height: 45px;
+}
+/* line 640, ../sass/style.scss */
+.allInputBlocks .blockInputFile .fileInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 20em;
+  text-indent: -10000px;
+  background: white;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 653, ../sass/style.scss */
+.allInputBlocks .blockInputFile .textFileInput {
+  font-size: 12px;
+  margin: auto;
+  color: #98a1a7;
+}
+/* line 660, ../sass/style.scss */
+.allInputBlocks .costInput {
+  width: 200px;
+  text-align: center;
+  height: 45px;
+  margin: auto;
+  border: 1px solid #d5d5d5;
+  outline: none !important;
+  font-size: 12px;
+}
+/* line 670, ../sass/style.scss */
+.allInputBlocks .myBtnStyle {
+  width: 300px;
+  margin: auto;
+}
+
+/* line 676, ../sass/style.scss */
+.bordAllTextStyle {
+  font-family: 'Conv_GothaProBol';
+  padding: 0 0 0 25px;
+  border-left: 9px solid #0782d4;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 34px;
+}
+
+/* line 685, ../sass/style.scss */
+.textInsertFloat {
+  float: right;
+}
+
+/* line 689, ../sass/style.scss */
+.rightTimesEco {
+  padding-left: 90px;
+}
+/* line 692, ../sass/style.scss */
+.rightTimesEco .timesEcoBlock {
+  position: relative;
+  display: flex;
+  height: 70px;
+  margin-bottom: 20px;
+}
+/* line 698, ../sass/style.scss */
+.rightTimesEco .timesEcoBlock .timesText {
+  font-family: 'Conv_GothaProReg';
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* line 706, ../sass/style.scss */
+.rightTimesEco .timesEcoBlock_1:before {
+  position: absolute;
+  content: '';
+  left: -70px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url("../img/calc.png") no-repeat center;
+  width: 52px;
+  height: 62px;
+}
+/* line 720, ../sass/style.scss */
+.rightTimesEco .timesEcoBlock_2:before {
+  position: absolute;
+  content: '';
+  left: -70px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url("../img/list.png") no-repeat center;
+  width: 52px;
+  height: 62px;
+}
+/* line 734, ../sass/style.scss */
+.rightTimesEco .timesEcoBlock_3:before {
+  position: absolute;
+  content: '';
+  left: -70px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url("../img/disc.png") no-repeat center;
+  width: 52px;
+  height: 62px;
+}
+
+/* line 749, ../sass/style.scss */
+.rightTimesEco2 .timesEcoBlock2 {
+  width: 50%;
+  float: left;
+  padding-left: 60px;
+  margin-bottom: 50px;
+  position: relative;
+}
+/* line 758, ../sass/style.scss */
+.rightTimesEco2 .timesEcoBlock2_1:before {
+  font-family: 'Conv_GothaProBol';
+  content: '01';
+  position: absolute;
+  left: 0;
+  top: -3px;
+  font-size: 24px;
+}
+/* line 769, ../sass/style.scss */
+.rightTimesEco2 .timesEcoBlock2_2:before {
+  font-family: 'Conv_GothaProBol';
+  content: '02';
+  position: absolute;
+  left: 0;
+  top: -3px;
+  font-size: 24px;
+}
+/* line 780, ../sass/style.scss */
+.rightTimesEco2 .timesEcoBlock2_3:before {
+  font-family: 'Conv_GothaProBol';
+  content: '03';
+  position: absolute;
+  left: 0;
+  top: -3px;
+  font-size: 24px;
+}
+/* line 791, ../sass/style.scss */
+.rightTimesEco2 .timesEcoBlock2_4:before {
+  font-family: 'Conv_GothaProBol';
+  content: '04';
+  position: absolute;
+  left: 0;
+  top: -3px;
+  font-size: 24px;
+}
+
+/* line 803, ../sass/style.scss */
+.clockBlock .timesEcoBlock3_3 {
+  display: block;
+}
+/* line 806, ../sass/style.scss */
+.clockBlock .timesEcoBlock3_3:before {
+  position: absolute;
+  content: '';
+  left: -40px;
+  top: 4px;
+  margin: auto;
+  background: url(../img/clock.png) no-repeat center;
+  width: 16px;
+  height: 16px;
+}
+
+/* line 819, ../sass/style.scss */
+.consultBg {
+  background: #f8f8f8;
+  padding-bottom: 30px;
+}
+/* line 823, ../sass/style.scss */
+.consultBg .consultForm {
+  padding: 40px 0 0;
+  display: flex;
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 830, ../sass/style.scss */
+.consultBg .consultForm .consultInput {
+  margin: auto;
+  width: 300px;
+  height: 45px;
+  text-align: center;
+  border: 1px solid #d5d5d5;
+}
+/* line 838, ../sass/style.scss */
+.consultBg .consultForm .myBtnStyle {
+  width: 300px;
+  height: 45px;
+  margin: auto;
+}
+/* line 845, ../sass/style.scss */
+.consultBg .consultFormText {
+  font-family: 'Conv_GothaProReg';
+  margin-top: 45px;
+  text-align: center;
+}
+
+/* line 852, ../sass/style.scss */
+.closedWorkWrapper {
+  margin: 50px 0;
+  display: flex;
+}
+/* line 856, ../sass/style.scss */
+.closedWorkWrapper .closedWorkText {
+  display: flex;
+}
+/* line 859, ../sass/style.scss */
+.closedWorkWrapper .closedWorkText .bordAllTextStyle {
+  margin: auto 0;
+}
+/* line 866, ../sass/style.scss */
+.closedWorkWrapper .closedSlider .slider3 .slider3Relative {
+  position: relative;
+  display: flex;
+}
+/* line 870, ../sass/style.scss */
+.closedWorkWrapper .closedSlider .slider3 .slider3Relative .actForWork {
+  background: #fff;
+  width: 170px;
+  height: 280px;
+  margin: auto;
+}
+/* line 878, ../sass/style.scss */
+.closedWorkWrapper .closedSlider .slider3 .slider3Iners_1 {
+  background: url("../img/slideOne.jpg") no-repeat center;
+  height: 320px;
+}
+/* line 883, ../sass/style.scss */
+.closedWorkWrapper .closedSlider .slider3 .slick-prev {
+  background: url("../img/leftArrow.png") no-repeat center;
+  left: 0;
+  width: 26px;
+  height: 43px;
+  z-index: 1000;
+}
+/* line 891, ../sass/style.scss */
+.closedWorkWrapper .closedSlider .slider3 .slick-next {
+  background: url("../img/rightArrow.png") no-repeat center;
+  right: 0;
+  width: 26px;
+  height: 43px;
+}
+
+/* line 901, ../sass/style.scss */
+.actModal {
+  margin: 20px auto;
+  width: 320px;
+  height: 600px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+/* line 910, ../sass/style.scss */
+.blockVideoWrapper .videoTtitlesBold {
+  font-family: 'Conv_GothaProBol';
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+/* line 918, ../sass/style.scss */
+.blockVideoWrapper .videoTtitlesRegular {
+  font-family: 'Conv_GothaProReg';
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+/* line 926, ../sass/style.scss */
+.blockVideoWrapper .leftVideo {
+  padding: 0;
+}
+/* line 929, ../sass/style.scss */
+.blockVideoWrapper .leftVideo iframe {
+  width: 100%;
+  height: 220px;
+  margin-bottom: 30px;
+}
+/* line 936, ../sass/style.scss */
+.blockVideoWrapper .rightVideoAndTitles {
+  padding-left: 70px;
+}
+/* line 940, ../sass/style.scss */
+.blockVideoWrapper .rightVideoAndTitles .rightOurBlock .titlesNameVideo {
+  font-family: 'Conv_GothaProBol';
+}
+/* line 944, ../sass/style.scss */
+.blockVideoWrapper .rightVideoAndTitles .rightOurBlock .nameOurVideo {
+  font-family: 'Conv_GothaProReg';
+}
+/* line 948, ../sass/style.scss */
+.blockVideoWrapper .rightVideoAndTitles .rightOurBlock iframe {
+  width: 100%;
+  height: 172px;
+  margin-bottom: 28px;
+}
+
+/* line 958, ../sass/style.scss */
+.mapWrapper .mapBlock {
+  padding: 0;
+}
+/* line 961, ../sass/style.scss */
+.mapWrapper .mapBlock iframe {
+  width: 100%;
+  height: 320px;
+}
+/* line 967, ../sass/style.scss */
+.mapWrapper .mapForm.formBoxAll {
+  padding-top: 20px;
+}
+/* line 970, ../sass/style.scss */
+.mapWrapper .mapForm.formBoxAll .formBox {
+  background: none;
+}
+/* line 973, ../sass/style.scss */
+.mapWrapper .mapForm.formBoxAll .formBox .titlesForm {
+  font-family: 'Conv_GothaProReg';
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 28px;
+}
+/* line 980, ../sass/style.scss */
+.mapWrapper .mapForm.formBoxAll .formBox .telephoneForm {
+  border: 1px solid #d5d5d5;
+  width: 300px;
+}
+/* line 985, ../sass/style.scss */
+.mapWrapper .mapForm.formBoxAll .formBox .textProject {
+  text-align: left;
+  border: 1px solid #d5d5d5;
+  height: 70px;
+  width: 300px;
+}
+/* line 992, ../sass/style.scss */
+.mapWrapper .mapForm.formBoxAll .formBox .myBtnStyle {
+  width: 300px;
+}
+
+/* line 999, ../sass/style.scss */
+.footerWrapper {
+  margin-top: 50px;
+  padding: 0;
+}
+/* line 1004, ../sass/style.scss */
+.footerWrapper .footerLogo img {
+  width: 230px;
+  height: 170px;
+  margin-top: -40px;
+  margin-left: -15px;
+}
+/* line 1011, ../sass/style.scss */
+.footerWrapper .footerLogo .logoText {
+  font-family: 'Conv_GothaProReg';
+  position: absolute;
+  top: 6px;
+  right: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+/* line 1021, ../sass/style.scss */
+.footerWrapper .footerLogo .copyRight {
+  font-family: 'Conv_GothaProReg';
+  margin-top: 32px;
+  font-size: 16px;
+}
+/* line 1028, ../sass/style.scss */
+.footerWrapper .footerWorckClock {
+  text-align: center;
+}
+/* line 1031, ../sass/style.scss */
+.footerWrapper .footerWorckClock .timeWork {
+  font-family: 'Conv_GothaProReg';
+  font-size: 18px;
+}
+/* line 1036, ../sass/style.scss */
+.footerWrapper .footerWorckClock .dopTimeWork {
+  font-family: 'Conv_GothaProBol';
+}
+/* line 1042, ../sass/style.scss */
+.footerWrapper .footerInfo .telephoneNumber {
+  font-family: 'Conv_GothaProReg';
+  font-size: 24px;
+  text-align: right;
+}
+/* line 1048, ../sass/style.scss */
+.footerWrapper .footerInfo .footerInfoList {
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+}
+/* line 1053, ../sass/style.scss */
+.footerWrapper .footerInfo .footerInfoList li {
+  font-family: 'Conv_GothaProBol';
+}
+/* line 1056, ../sass/style.scss */
+.footerWrapper .footerInfo .footerInfoList li:last-child {
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  /* line 1068, ../sass/style.scss */
+  .backgroundSect1 .titlesOKB {
+    font-size: 24px;
+  }
+  /* line 1072, ../sass/style.scss */
+  .backgroundSect1 .titlesMin {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  /* line 1078, ../sass/style.scss */
+  .backgroundSect1 .infoTopBlockAll .middleTopInfo {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  /* line 1087, ../sass/style.scss */
+  .galery2Wrapper .leftIconSlide2 .blockGal2All {
+    width: 126px;
+    height: 126px;
+  }
+  /* line 1094, ../sass/style.scss */
+  .galery2Wrapper .rightIconSlide2 .slider2Titles {
+    font-size: 18px;
+  }
+  /* line 1100, ../sass/style.scss */
+  .galery2Wrapper .slider2 .slider2_1 {
+    height: 304px;
+  }
+
+  /* line 1106, ../sass/style.scss */
+  .allSectTitles {
+    padding: 40px 0;
+  }
+
+  /* line 1113, ../sass/style.scss */
+  .wrapperTopGalery .blockTopGaleryIns .galTextblockIns .insertTextGal {
+    font-size: 11px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 1124, ../sass/style.scss */
+  .wrapperHeader .logo .logoText {
+    right: -80px;
+  }
+
+  /* line 1131, ../sass/style.scss */
+  .formBoxAll .formBox {
+    width: 100%;
+    padding: 10px 0;
+  }
+  /* line 1135, ../sass/style.scss */
+  .formBoxAll .formBox .titlesForm {
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  /* line 1140, ../sass/style.scss */
+  .formBoxAll .formBox .textProject,
+  .formBoxAll .formBox .telephoneForm {
+    height: 48px;
+  }
+
+  /* line 1148, ../sass/style.scss */
+  .galery2Wrapper .rightIconSlide2 {
+    padding-left: 10px;
+  }
+  /* line 1151, ../sass/style.scss */
+  .galery2Wrapper .rightIconSlide2 .slider2Titles {
+    font-size: 15px;
+  }
+  /* line 1156, ../sass/style.scss */
+  .galery2Wrapper .slider2 {
+    padding: 10px 0;
+  }
+  /* line 1159, ../sass/style.scss */
+  .galery2Wrapper .slider2 .slider2_1 {
+    height: 238px;
+  }
+  /* line 1165, ../sass/style.scss */
+  .galery2Wrapper .leftIconSlide2 .blockGal2All {
+    width: 114px;
+    height: 114px;
+  }
+  /* line 1169, ../sass/style.scss */
+  .galery2Wrapper .leftIconSlide2 .blockGal2All .textOpisGal2 {
+    font-size: 11px;
+  }
+
+  /* line 1176, ../sass/style.scss */
+  .positionBg_4 {
+    margin-top: 40px;
+  }
+  /* line 1181, ../sass/style.scss */
+  .positionBg_4 .sect4WrapperAll .s4LeftText .sect4LeftText {
+    font-size: 24px;
+  }
+
+  /* line 1188, ../sass/style.scss */
+  .allSectTitles {
+    font-size: 18px;
+  }
+
+  /* line 1192, ../sass/style.scss */
+  .wrapperProject .leftDocuments .docTtiles, .wrapperProject .rightDocuments .docTtiles {
+    font-size: 22px;
+  }
+
+  /* line 1196, ../sass/style.scss */
+  .titleCost {
+    font-size: 18px;
+  }
+
+  /* line 1201, ../sass/style.scss */
+  .allInputBlocks .blockInputFile,
+  .allInputBlocks .costInput {
+    width: 140px;
+  }
+  /* line 1206, ../sass/style.scss */
+  .allInputBlocks .myBtnStyle {
+    width: 270px;
+  }
+
+  /* line 1211, ../sass/style.scss */
+  .bordAllTextStyle {
+    font-size: 17px;
+  }
+
+  /* line 1215, ../sass/style.scss */
+  .rightTimesEco {
+    padding-left: 60px;
+  }
+
+  /* line 1220, ../sass/style.scss */
+  .rightTimesEco2 .timesEcoBlock2 {
+    padding-left: 36px;
+    margin-bottom: 25px;
+  }
+  /* line 1224, ../sass/style.scss */
+  .rightTimesEco2 .timesEcoBlock2 .timesText2 {
+    font-size: 12px;
+  }
+
+  /* line 1230, ../sass/style.scss */
+  .rightTimesEco .timesEcoBlock .timesText {
+    font-size: 12px;
+  }
+
+  /* line 1234, ../sass/style.scss */
+  .blockVideoWrapper .videoTtitlesRegular {
+    font-size: 20px;
+  }
+
+  /* line 1238, ../sass/style.scss */
+  .mapWrapper .mapForm.formBoxAll .formBox .titlesForm {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  /* line 1243, ../sass/style.scss */
+  .mapWrapper .mapBlock iframe {
+    height: 260px;
+  }
+
+  /* line 1247, ../sass/style.scss */
+  .mapWrapper .mapForm.formBoxAll {
+    padding-top: 0;
+  }
+
+  /* line 1251, ../sass/style.scss */
+  .footerWrapper .footerInfo .telephoneNumber {
+    font-size: 21px;
+  }
+
+  /* line 1255, ../sass/style.scss */
+  .footerWrapper .footerLogo .logoText {
+    top: 76px;
+    text-align: center;
+    left: 0;
+  }
+
+  /* line 1261, ../sass/style.scss */
+  .footerWrapper .footerLogo .copyRight {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1267, ../sass/style.scss */
+  .wrapperHeader .logo img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+  }
+
+  /* line 1275, ../sass/style.scss */
+  .wrapperHeader .logo .logoText {
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 80px;
+  }
+
+  /* line 1282, ../sass/style.scss */
+  .backgroundSect1 {
+    margin-top: 0;
+    background-size: cover;
+  }
+
+  /* line 1287, ../sass/style.scss */
+  .backgroundSect1 .titlesOKB {
+    font-size: 18px;
+  }
+
+  /* line 1291, ../sass/style.scss */
+  .backgroundSect1 .titlesMin {
+    font-size: 15px;
+  }
+
+  /* line 1295, ../sass/style.scss */
+  .slidersBox,
+  .formBoxAll {
+    padding: 0;
+  }
+
+  /* line 1300, ../sass/style.scss */
+  .formBoxAll .formBox .formText {
+    font-size: 12px;
+  }
+
+  /* line 1304, ../sass/style.scss */
+  .myBtnStyle {
+    font-size: 16px;
+  }
+
+  /* line 1308, ../sass/style.scss */
+  .formBoxAll .formBox .bottomTextForm {
+    font-size: 12px;
+  }
+
+  /* line 1311, ../sass/style.scss */
+  .backgroundSect1 .infoTopBlockAll {
+    display: block;
+  }
+
+  /* line 1315, ../sass/style.scss */
+  .backgroundSect1 .infoTopBlockAll .leftTopInfo,
+  .backgroundSect1 .infoTopBlockAll .middleTopInfo,
+  .backgroundSect1 .infoTopBlockAll .rightTopInfo {
+    padding-left: 50px;
+  }
+  /* line 1320, ../sass/style.scss */
+  .backgroundSect1 .infoTopBlockAll .leftTopInfo:before,
+  .backgroundSect1 .infoTopBlockAll .middleTopInfo:before,
+  .backgroundSect1 .infoTopBlockAll .rightTopInfo:before {
+    width: 34px;
+    height: 32px;
+    background-size: contain;
+    left: 5px;
+  }
+
+  /* line 1328, ../sass/style.scss */
+  .backgroundSect1 .infoTopBlockAll .infoTopTitiles {
+    font-size: 12px;
+  }
+
+  /* line 1332, ../sass/style.scss */
+  .backgroundSect1 .infoTopBlockAll .infoTopText {
+    font-size: 10px;
+  }
+
+  /* line 1336, ../sass/style.scss */
+  .allSectTitles {
+    font-size: 14px;
+    padding: 20px 0;
+  }
+
+  /* line 1341, ../sass/style.scss */
+  .wrapperTopGalery {
+    display: block;
+  }
+
+  /* line 1345, ../sass/style.scss */
+  .wrapperTopGalery .blockTopGaleryIns {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 15px;
+  }
+
+  /* line 1351, ../sass/style.scss */
+  .galery2Wrapper .leftIconSlide2 .blockGal2All {
+    width: 138px;
+    height: 138px;
+    margin: 10px auto !important;
+    float: none;
+  }
+
+  /* line 1358, ../sass/style.scss */
+  .galery2Wrapper .rightIconSlide2 {
+    padding: 0;
+  }
+
+  /* line 1362, ../sass/style.scss */
+  .galery2Wrapper .rightIconSlide2 .slider2Titles {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+
+  /* line 1367, ../sass/style.scss */
+  .positionBg_4 .bg_4 {
+    margin-left: auto;
+  }
+
+  /* line 1371, ../sass/style.scss */
+  .positionBg_4 .sect4WrapperAll .s4LeftText .sect4LeftText {
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  /* line 1378, ../sass/style.scss */
+  .positionBg_4 .sect4WrapperAll {
+    display: block;
+  }
+
+  /* line 1382, ../sass/style.scss */
+  .positionBg_4 .secondFormBg .formBox {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* line 1387, ../sass/style.scss */
+  .formBoxAll .formBox .bottomTextForm {
+    font-size: 11px;
+  }
+
+  /* line 1391, ../sass/style.scss */
+  .allSectTitles {
+    font-size: 12px;
+    padding: 20px 0;
+    line-height: 20px;
+  }
+
+  /* line 1397, ../sass/style.scss */
+  .leftDocuments,
+  .rightDocuments {
+    padding: 0;
+  }
+
+  /* line 1402, ../sass/style.scss */
+  .wrapperProject .leftDocuments .docTtiles, .wrapperProject .rightDocuments .docTtiles {
+    font-size: 14px;
+  }
+
+  /* line 1406, ../sass/style.scss */
+  .wrapperProject .leftDocuments .docAll, .wrapperProject .rightDocuments .docAll {
+    padding: 0;
+  }
+
+  /* line 1410, ../sass/style.scss */
+  .titleCost {
+    font-size: 15px;
+  }
+
+  /* line 1414, ../sass/style.scss */
+  .formCost .miniTitleCost {
+    margin: 20px 0 15px 0;
+    font-size: 16px;
+  }
+
+  /* line 1419, ../sass/style.scss */
+  .allInputBlocks {
+    display: block;
+  }
+
+  /* line 1423, ../sass/style.scss */
+  .allInputBlocks .blockInputFile, .allInputBlocks .costInput {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* line 1431, ../sass/style.scss */
+  .costBg {
+    height: auto;
+    background-size: cover;
+  }
+
+  /* line 1436, ../sass/style.scss */
+  .allInputBlocks .myBtnStyle {
+    width: 270px;
+    display: block;
+  }
+
+  /* line 1441, ../sass/style.scss */
+  .bordAllTextStyle {
+    font-size: 10px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  /* line 1447, ../sass/style.scss */
+  .rightTimesEco {
+    padding-left: 49px;
+  }
+
+  /* line 1451, ../sass/style.scss */
+  .rightTimesEco .timesEcoBlock {
+    margin-bottom: 10px;
+  }
+
+  /* line 1455, ../sass/style.scss */
+  .rightTimesEco .timesEcoBlock_1:before,
+  .rightTimesEco .timesEcoBlock_2:before,
+  .rightTimesEco .timesEcoBlock_3:before {
+    left: -53px;
+    width: 32px;
+    height: 42px;
+    background-size: contain;
+  }
+
+  /* line 1464, ../sass/style.scss */
+  .rightTimesEco2 {
+    padding: 0;
+  }
+
+  /* line 1468, ../sass/style.scss */
+  .rightTimesEco2 .timesEcoBlock2 .timesText2 {
+    font-size: 11px;
+  }
+
+  /* line 1472, ../sass/style.scss */
+  .consultBg .consultForm {
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+  }
+
+  /* line 1478, ../sass/style.scss */
+  .consultBg .consultForm .consultInput,
+  .consultBg .consultForm .myBtnStyle {
+    width: 270px;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+
+  /* line 1485, ../sass/style.scss */
+  .closedWorkWrapper {
+    margin: 30px 0;
+    display: block;
+  }
+
+  /* line 1490, ../sass/style.scss */
+  .closedWorkWrapper .closedWorkText .bordAllTextStyle {
+    margin: 0 0 20px 0;
+  }
+
+  /* line 1494, ../sass/style.scss */
+  .closedWorkWrapper .closedWorkText,
+  .closedSlider {
+    padding: 0;
+  }
+
+  /* line 1499, ../sass/style.scss */
+  .blockVideoWrapper .videoTtitlesBold {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  /* line 1504, ../sass/style.scss */
+  .blockVideoWrapper .videoTtitlesRegular {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  /* line 1509, ../sass/style.scss */
+  .blockVideoWrapper .rightVideoAndTitles {
+    padding: 0;
+  }
+
+  /* line 1513, ../sass/style.scss */
+  .mapWrapper .mapForm.formBoxAll .formBox .titlesForm {
+    font-size: 17px;
+  }
+
+  /* line 1517, ../sass/style.scss */
+  .mapWrapper .mapForm.formBoxAll .formBox .telephoneForm,
+  .mapWrapper .mapForm.formBoxAll .formBox .textProject,
+  .mapWrapper .mapForm.formBoxAll .formBox .myBtnStyle {
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 1526, ../sass/style.scss */
+  .footerWrapper .footerLogo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+  }
+
+  /* line 1533, ../sass/style.scss */
+  .footerWrapper .footerLogo .copyRight {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* line 1539, ../sass/style.scss */
+  .footerWrapper .footerInfo .telephoneNumber,
+  .footerWrapper .footerInfo .footerInfoList {
+    text-align: center;
+  }
+
+  /* line 1544, ../sass/style.scss */
+  .modal {
+    width: 310px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* line 1550, ../sass/style.scss */
+  .modal-content {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
