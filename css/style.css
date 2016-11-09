@@ -2,21 +2,21 @@
 @font-face {
   font-family: 'Conv_GothaProBla';
   src: url("../fonts/GothaProBla.eot");
-  src: local("тШ║"), url("../fonts/GothaProBla.woff") format("woff"), url("../fonts/GothaProBla.ttf") format("truetype"), url("../fonts/GothaProBla.svg") format("svg");
+  src: local("☺"), url("../fonts/GothaProBla.woff") format("woff"), url("../fonts/GothaProBla.ttf") format("truetype"), url("../fonts/GothaProBla.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Conv_GothaProBol';
   src: url("../fonts/GothaProBol.eot");
-  src: local("тШ║"), url("../fonts/GothaProBol.woff") format("woff"), url("../fonts/GothaProBol.ttf") format("truetype"), url("../fonts/GothaProBol.svg") format("svg");
+  src: local("☺"), url("../fonts/GothaProBol.woff") format("woff"), url("../fonts/GothaProBol.ttf") format("truetype"), url("../fonts/GothaProBol.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Conv_GothaProReg';
   src: url("../fonts/GothaProReg.eot");
-  src: local("тШ║"), url("../fonts/GothaProReg.woff") format("woff"), url("../fonts/GothaProReg.ttf") format("truetype"), url("../fonts/GothaProReg.svg") format("svg");
+  src: local("☺"), url("../fonts/GothaProReg.woff") format("woff"), url("../fonts/GothaProReg.ttf") format("truetype"), url("../fonts/GothaProReg.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -650,7 +650,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 691, ../sass/style.scss */
 .rightTimesEco {
-  padding-left: 90px;
+  padding-left: 74px;
 }
 /* line 694, ../sass/style.scss */
 .rightTimesEco .timesEcoBlock {
@@ -755,7 +755,7 @@ h1, h2, h3, h4, h5, h6 {
 .clockBlock .timesEcoBlock3_3:before {
   position: absolute;
   content: '';
-  left: -40px;
+  left: -56px;
   top: 4px;
   margin: auto;
   background: url(../img/clock.png) no-repeat center;
@@ -874,81 +874,84 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 931, ../sass/style.scss */
 .blockVideoWrapper .leftVideo iframe {
-  width: 100%;
+  width: 90%;
   height: 220px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-/* line 938, ../sass/style.scss */
+/* line 941, ../sass/style.scss */
 .blockVideoWrapper .rightVideoAndTitles {
   padding-left: 70px;
 }
-/* line 942, ../sass/style.scss */
+/* line 945, ../sass/style.scss */
 .blockVideoWrapper .rightVideoAndTitles .rightOurBlock .titlesNameVideo {
   font-family: 'Conv_GothaProBol';
 }
-/* line 946, ../sass/style.scss */
+/* line 949, ../sass/style.scss */
 .blockVideoWrapper .rightVideoAndTitles .rightOurBlock .nameOurVideo {
   font-family: 'Conv_GothaProReg';
 }
-/* line 950, ../sass/style.scss */
+/* line 953, ../sass/style.scss */
 .blockVideoWrapper .rightVideoAndTitles .rightOurBlock iframe {
   width: 100%;
   height: 172px;
   margin-bottom: 28px;
 }
 
-/* line 960, ../sass/style.scss */
+/* line 963, ../sass/style.scss */
 .mapWrapper .mapBlock {
   padding: 0;
 }
-/* line 963, ../sass/style.scss */
+/* line 966, ../sass/style.scss */
 .mapWrapper .mapBlock iframe {
   width: 100%;
   height: 320px;
 }
-/* line 969, ../sass/style.scss */
+/* line 972, ../sass/style.scss */
 .mapWrapper .mapForm.formBoxAll {
   padding-top: 20px;
 }
-/* line 972, ../sass/style.scss */
+/* line 975, ../sass/style.scss */
 .mapWrapper .mapForm.formBoxAll .formBox {
   background: none;
 }
-/* line 975, ../sass/style.scss */
+/* line 978, ../sass/style.scss */
 .mapWrapper .mapForm.formBoxAll .formBox .titlesForm {
   font-family: 'Conv_GothaProReg';
   text-transform: uppercase;
   text-align: center;
   font-size: 28px;
 }
-/* line 982, ../sass/style.scss */
+/* line 985, ../sass/style.scss */
 .mapWrapper .mapForm.formBoxAll .formBox .telephoneForm {
   border: 1px solid #d5d5d5;
   width: 300px;
 }
-/* line 987, ../sass/style.scss */
+/* line 990, ../sass/style.scss */
 .mapWrapper .mapForm.formBoxAll .formBox .textProject {
   text-align: left;
   border: 1px solid #d5d5d5;
   height: 70px;
   width: 300px;
 }
-/* line 994, ../sass/style.scss */
+/* line 997, ../sass/style.scss */
 .mapWrapper .mapForm.formBoxAll .formBox .myBtnStyle {
   width: 300px;
 }
 
-/* line 1001, ../sass/style.scss */
+/* line 1004, ../sass/style.scss */
 .footerWrapper {
   margin-top: 50px;
   padding: 0;
 }
-/* line 1006, ../sass/style.scss */
+/* line 1009, ../sass/style.scss */
 .footerWrapper .footerLogo img {
   width: 230px;
   margin-left: -15px;
 }
-/* line 1013, ../sass/style.scss */
+/* line 1016, ../sass/style.scss */
 .footerWrapper .footerLogo .logoText {
   font-family: 'Conv_GothaProReg';
   position: absolute;
@@ -959,233 +962,234 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 16px;
   display: none;
 }
-/* line 1024, ../sass/style.scss */
+/* line 1027, ../sass/style.scss */
 .footerWrapper .footerLogo .copyRight {
   font-family: 'Conv_GothaProReg';
-  margin-top: 32px;
+  margin-top: 150px;
   font-size: 16px;
+  margin-bottom: 20px;
 }
-/* line 1031, ../sass/style.scss */
+/* line 1035, ../sass/style.scss */
 .footerWrapper .footerWorckClock {
   text-align: center;
 }
-/* line 1034, ../sass/style.scss */
+/* line 1038, ../sass/style.scss */
 .footerWrapper .footerWorckClock .timeWork {
   font-family: 'Conv_GothaProReg';
   font-size: 18px;
 }
-/* line 1039, ../sass/style.scss */
+/* line 1043, ../sass/style.scss */
 .footerWrapper .footerWorckClock .dopTimeWork {
   font-family: 'Conv_GothaProBol';
 }
-/* line 1045, ../sass/style.scss */
+/* line 1049, ../sass/style.scss */
 .footerWrapper .footerInfo .telephoneNumber {
   font-family: 'Conv_GothaProReg';
   font-size: 24px;
   text-align: right;
 }
-/* line 1051, ../sass/style.scss */
+/* line 1055, ../sass/style.scss */
 .footerWrapper .footerInfo .footerInfoList {
   padding: 0;
   list-style-type: none;
   text-align: right;
 }
-/* line 1056, ../sass/style.scss */
+/* line 1060, ../sass/style.scss */
 .footerWrapper .footerInfo .footerInfoList li {
   font-family: 'Conv_GothaProBol';
 }
-/* line 1059, ../sass/style.scss */
+/* line 1063, ../sass/style.scss */
 .footerWrapper .footerInfo .footerInfoList li:last-child {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 @media (max-width: 1200px) {
-  /* line 1071, ../sass/style.scss */
+  /* line 1075, ../sass/style.scss */
   .backgroundSect1 .titlesOKB {
     font-size: 24px;
   }
-  /* line 1075, ../sass/style.scss */
+  /* line 1079, ../sass/style.scss */
   .backgroundSect1 .titlesMin {
     margin-bottom: 40px;
     font-size: 18px;
   }
-  /* line 1081, ../sass/style.scss */
+  /* line 1085, ../sass/style.scss */
   .backgroundSect1 .infoTopBlockAll .middleTopInfo {
     margin-left: 0px;
     margin-right: 10px;
   }
 
-  /* line 1090, ../sass/style.scss */
+  /* line 1094, ../sass/style.scss */
   .galery2Wrapper .leftIconSlide2 .blockGal2All {
     width: 126px;
     height: 126px;
   }
-  /* line 1097, ../sass/style.scss */
+  /* line 1101, ../sass/style.scss */
   .galery2Wrapper .rightIconSlide2 .slider2Titles {
     font-size: 18px;
   }
-  /* line 1103, ../sass/style.scss */
+  /* line 1107, ../sass/style.scss */
   .galery2Wrapper .slider2 .slider2_1 {
     height: 304px;
   }
 
-  /* line 1109, ../sass/style.scss */
+  /* line 1113, ../sass/style.scss */
   .allSectTitles {
     padding: 40px 0;
   }
 
-  /* line 1116, ../sass/style.scss */
+  /* line 1120, ../sass/style.scss */
   .wrapperTopGalery .blockTopGaleryIns .galTextblockIns .insertTextGal {
     font-size: 11px;
   }
 }
 @media (max-width: 991px) {
-  /* line 1127, ../sass/style.scss */
+  /* line 1131, ../sass/style.scss */
   .wrapperHeader .logo .logoText {
     right: -80px;
   }
 
-  /* line 1134, ../sass/style.scss */
+  /* line 1138, ../sass/style.scss */
   .formBoxAll .formBox {
     width: 100%;
     padding: 10px 0;
   }
-  /* line 1138, ../sass/style.scss */
+  /* line 1142, ../sass/style.scss */
   .formBoxAll .formBox .titlesForm {
     font-size: 15px;
     padding-top: 20px;
   }
-  /* line 1143, ../sass/style.scss */
+  /* line 1147, ../sass/style.scss */
   .formBoxAll .formBox .textProject,
   .formBoxAll .formBox .telephoneForm {
     height: 48px;
   }
 
-  /* line 1151, ../sass/style.scss */
+  /* line 1155, ../sass/style.scss */
   .galery2Wrapper .rightIconSlide2 {
     padding-left: 10px;
   }
-  /* line 1154, ../sass/style.scss */
+  /* line 1158, ../sass/style.scss */
   .galery2Wrapper .rightIconSlide2 .slider2Titles {
     font-size: 15px;
   }
-  /* line 1159, ../sass/style.scss */
+  /* line 1163, ../sass/style.scss */
   .galery2Wrapper .slider2 {
     padding: 10px 0;
   }
-  /* line 1162, ../sass/style.scss */
+  /* line 1166, ../sass/style.scss */
   .galery2Wrapper .slider2 .slider2_1 {
     height: 238px;
   }
-  /* line 1168, ../sass/style.scss */
+  /* line 1172, ../sass/style.scss */
   .galery2Wrapper .leftIconSlide2 .blockGal2All {
     width: 114px;
     height: 114px;
   }
-  /* line 1172, ../sass/style.scss */
+  /* line 1176, ../sass/style.scss */
   .galery2Wrapper .leftIconSlide2 .blockGal2All .textOpisGal2 {
     font-size: 11px;
   }
 
-  /* line 1179, ../sass/style.scss */
+  /* line 1183, ../sass/style.scss */
   .positionBg_4 {
     margin-top: 40px;
   }
-  /* line 1184, ../sass/style.scss */
+  /* line 1188, ../sass/style.scss */
   .positionBg_4 .sect4WrapperAll .s4LeftText .sect4LeftText {
     font-size: 24px;
   }
 
-  /* line 1191, ../sass/style.scss */
+  /* line 1195, ../sass/style.scss */
   .allSectTitles {
     font-size: 18px;
   }
 
-  /* line 1195, ../sass/style.scss */
+  /* line 1199, ../sass/style.scss */
   .wrapperProject .leftDocuments .docTtiles, .wrapperProject .rightDocuments .docTtiles {
     font-size: 22px;
   }
 
-  /* line 1199, ../sass/style.scss */
+  /* line 1203, ../sass/style.scss */
   .titleCost {
     font-size: 18px;
   }
 
-  /* line 1204, ../sass/style.scss */
+  /* line 1208, ../sass/style.scss */
   .allInputBlocks .blockInputFile,
   .allInputBlocks .costInput {
     width: 140px;
   }
-  /* line 1209, ../sass/style.scss */
+  /* line 1213, ../sass/style.scss */
   .allInputBlocks .myBtnStyle {
     width: 270px;
   }
 
-  /* line 1214, ../sass/style.scss */
+  /* line 1218, ../sass/style.scss */
   .bordAllTextStyle {
     font-size: 17px;
   }
 
-  /* line 1218, ../sass/style.scss */
+  /* line 1222, ../sass/style.scss */
   .rightTimesEco {
     padding-left: 60px;
   }
 
-  /* line 1223, ../sass/style.scss */
+  /* line 1227, ../sass/style.scss */
   .rightTimesEco2 .timesEcoBlock2 {
     padding-left: 36px;
     margin-bottom: 25px;
   }
-  /* line 1227, ../sass/style.scss */
+  /* line 1231, ../sass/style.scss */
   .rightTimesEco2 .timesEcoBlock2 .timesText2 {
     font-size: 12px;
   }
 
-  /* line 1233, ../sass/style.scss */
+  /* line 1237, ../sass/style.scss */
   .rightTimesEco .timesEcoBlock .timesText {
     font-size: 12px;
   }
 
-  /* line 1237, ../sass/style.scss */
+  /* line 1241, ../sass/style.scss */
   .blockVideoWrapper .videoTtitlesRegular {
     font-size: 20px;
   }
 
-  /* line 1241, ../sass/style.scss */
+  /* line 1245, ../sass/style.scss */
   .mapWrapper .mapForm.formBoxAll .formBox .titlesForm {
     font-size: 20px;
     padding-top: 10px;
   }
 
-  /* line 1246, ../sass/style.scss */
+  /* line 1250, ../sass/style.scss */
   .mapWrapper .mapBlock iframe {
     height: 260px;
   }
 
-  /* line 1250, ../sass/style.scss */
+  /* line 1254, ../sass/style.scss */
   .mapWrapper .mapForm.formBoxAll {
     padding-top: 0;
   }
 
-  /* line 1254, ../sass/style.scss */
+  /* line 1258, ../sass/style.scss */
   .footerWrapper .footerInfo .telephoneNumber {
     font-size: 21px;
   }
 
-  /* line 1258, ../sass/style.scss */
+  /* line 1262, ../sass/style.scss */
   .footerWrapper .footerLogo .logoText {
     top: 76px;
     text-align: center;
     left: 0;
   }
 
-  /* line 1264, ../sass/style.scss */
+  /* line 1268, ../sass/style.scss */
   .footerWrapper .footerLogo .copyRight {
     font-size: 14px;
   }
 }
 @media (max-width: 767px) {
-  /* line 1270, ../sass/style.scss */
+  /* line 1274, ../sass/style.scss */
   .wrapperHeader .logo img {
     display: block;
     margin-left: auto;
@@ -1193,7 +1197,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0;
   }
 
-  /* line 1278, ../sass/style.scss */
+  /* line 1282, ../sass/style.scss */
   .wrapperHeader .logo .logoText {
     right: 0;
     left: 0;
@@ -1201,55 +1205,55 @@ h1, h2, h3, h4, h5, h6 {
     top: 80px;
   }
 
-  /* line 1285, ../sass/style.scss */
+  /* line 1289, ../sass/style.scss */
   .backgroundSect1 {
     margin-top: 0;
     background-size: cover;
   }
 
-  /* line 1290, ../sass/style.scss */
+  /* line 1294, ../sass/style.scss */
   .backgroundSect1 .titlesOKB {
     font-size: 18px;
   }
 
-  /* line 1294, ../sass/style.scss */
+  /* line 1298, ../sass/style.scss */
   .backgroundSect1 .titlesMin {
     font-size: 15px;
   }
 
-  /* line 1298, ../sass/style.scss */
+  /* line 1302, ../sass/style.scss */
   .slidersBox,
   .formBoxAll {
     padding: 0;
   }
 
-  /* line 1303, ../sass/style.scss */
+  /* line 1307, ../sass/style.scss */
   .formBoxAll .formBox .formText {
     font-size: 12px;
   }
 
-  /* line 1307, ../sass/style.scss */
+  /* line 1311, ../sass/style.scss */
   .myBtnStyle {
     font-size: 16px;
   }
 
-  /* line 1311, ../sass/style.scss */
+  /* line 1315, ../sass/style.scss */
   .formBoxAll .formBox .bottomTextForm {
     font-size: 12px;
   }
 
-  /* line 1314, ../sass/style.scss */
+  /* line 1318, ../sass/style.scss */
   .backgroundSect1 .infoTopBlockAll {
     display: block;
   }
 
-  /* line 1318, ../sass/style.scss */
+  /* line 1322, ../sass/style.scss */
   .backgroundSect1 .infoTopBlockAll .leftTopInfo,
   .backgroundSect1 .infoTopBlockAll .middleTopInfo,
   .backgroundSect1 .infoTopBlockAll .rightTopInfo {
     padding-left: 50px;
   }
-  /* line 1323, ../sass/style.scss */
+  /* line 1327, ../sass/style.scss */
   .backgroundSect1 .infoTopBlockAll .leftTopInfo:before,
   .backgroundSect1 .infoTopBlockAll .middleTopInfo:before,
   .backgroundSect1 .infoTopBlockAll .rightTopInfo:before {
@@ -1259,35 +1263,35 @@ h1, h2, h3, h4, h5, h6 {
     left: 5px;
   }
 
-  /* line 1331, ../sass/style.scss */
+  /* line 1335, ../sass/style.scss */
   .backgroundSect1 .infoTopBlockAll .infoTopTitiles {
     font-size: 12px;
   }
 
-  /* line 1335, ../sass/style.scss */
+  /* line 1339, ../sass/style.scss */
   .backgroundSect1 .infoTopBlockAll .infoTopText {
     font-size: 10px;
   }
 
-  /* line 1339, ../sass/style.scss */
+  /* line 1343, ../sass/style.scss */
   .allSectTitles {
     font-size: 14px;
     padding: 20px 0;
   }
 
-  /* line 1344, ../sass/style.scss */
+  /* line 1348, ../sass/style.scss */
   .wrapperTopGalery {
     display: block;
   }
 
-  /* line 1348, ../sass/style.scss */
+  /* line 1352, ../sass/style.scss */
   .wrapperTopGalery .blockTopGaleryIns {
     margin-left: auto !important;
     margin-right: auto !important;
     margin-bottom: 15px;
   }
 
-  /* line 1354, ../sass/style.scss */
+  /* line 1358, ../sass/style.scss */
   .galery2Wrapper .leftIconSlide2 .blockGal2All {
     width: 138px;
     height: 138px;
@@ -1295,23 +1299,23 @@ h1, h2, h3, h4, h5, h6 {
     float: none;
   }
 
-  /* line 1361, ../sass/style.scss */
+  /* line 1365, ../sass/style.scss */
   .galery2Wrapper .rightIconSlide2 {
     padding: 0;
   }
 
-  /* line 1365, ../sass/style.scss */
+  /* line 1369, ../sass/style.scss */
   .galery2Wrapper .rightIconSlide2 .slider2Titles {
     font-size: 12px;
     padding-top: 20px;
   }
 
-  /* line 1370, ../sass/style.scss */
+  /* line 1374, ../sass/style.scss */
   .positionBg_4 .bg_4 {
     margin-left: auto;
   }
 
-  /* line 1374, ../sass/style.scss */
+  /* line 1378, ../sass/style.scss */
   .positionBg_4 .sect4WrapperAll .s4LeftText .sect4LeftText {
     font-size: 18px;
     text-align: center;
@@ -1319,62 +1323,62 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 15px;
   }
 
-  /* line 1381, ../sass/style.scss */
+  /* line 1385, ../sass/style.scss */
   .positionBg_4 .sect4WrapperAll {
     display: block;
   }
 
-  /* line 1385, ../sass/style.scss */
+  /* line 1389, ../sass/style.scss */
   .positionBg_4 .secondFormBg .formBox {
     width: 100%;
     padding: 0;
   }
 
-  /* line 1390, ../sass/style.scss */
+  /* line 1394, ../sass/style.scss */
   .formBoxAll .formBox .bottomTextForm {
     font-size: 11px;
   }
 
-  /* line 1394, ../sass/style.scss */
+  /* line 1398, ../sass/style.scss */
   .allSectTitles {
     font-size: 12px;
     padding: 20px 0;
     line-height: 20px;
   }
 
-  /* line 1400, ../sass/style.scss */
+  /* line 1404, ../sass/style.scss */
   .leftDocuments,
   .rightDocuments {
     padding: 0;
   }
 
-  /* line 1405, ../sass/style.scss */
+  /* line 1409, ../sass/style.scss */
   .wrapperProject .leftDocuments .docTtiles, .wrapperProject .rightDocuments .docTtiles {
     font-size: 14px;
   }
 
-  /* line 1409, ../sass/style.scss */
+  /* line 1413, ../sass/style.scss */
   .wrapperProject .leftDocuments .docAll, .wrapperProject .rightDocuments .docAll {
     padding: 0;
   }
 
-  /* line 1413, ../sass/style.scss */
+  /* line 1417, ../sass/style.scss */
   .titleCost {
     font-size: 15px;
   }
 
-  /* line 1417, ../sass/style.scss */
+  /* line 1421, ../sass/style.scss */
   .formCost .miniTitleCost {
     margin: 20px 0 15px 0;
     font-size: 16px;
   }
 
-  /* line 1422, ../sass/style.scss */
+  /* line 1426, ../sass/style.scss */
   .allInputBlocks {
     display: block;
   }
 
-  /* line 1426, ../sass/style.scss */
+  /* line 1430, ../sass/style.scss */
   .allInputBlocks .blockInputFile, .allInputBlocks .costInput {
     width: 200px;
     margin-left: auto;
@@ -1383,36 +1387,36 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
   }
 
-  /* line 1434, ../sass/style.scss */
+  /* line 1438, ../sass/style.scss */
   .costBg {
     height: auto;
     background-size: cover;
   }
 
-  /* line 1439, ../sass/style.scss */
+  /* line 1443, ../sass/style.scss */
   .allInputBlocks .myBtnStyle {
     width: 270px;
     display: block;
   }
 
-  /* line 1444, ../sass/style.scss */
+  /* line 1448, ../sass/style.scss */
   .bordAllTextStyle {
     font-size: 10px;
     line-height: 25px;
     margin-bottom: 20px;
   }
 
-  /* line 1450, ../sass/style.scss */
+  /* line 1454, ../sass/style.scss */
   .rightTimesEco {
     padding-left: 49px;
   }
 
-  /* line 1454, ../sass/style.scss */
+  /* line 1458, ../sass/style.scss */
   .rightTimesEco .timesEcoBlock {
     margin-bottom: 10px;
   }
 
-  /* line 1458, ../sass/style.scss */
+  /* line 1462, ../sass/style.scss */
   .rightTimesEco .timesEcoBlock_1:before,
   .rightTimesEco .timesEcoBlock_2:before,
   .rightTimesEco .timesEcoBlock_3:before {
@@ -1422,24 +1426,24 @@ h1, h2, h3, h4, h5, h6 {
     background-size: contain;
   }
 
-  /* line 1467, ../sass/style.scss */
+  /* line 1471, ../sass/style.scss */
   .rightTimesEco2 {
     padding: 0;
   }
 
-  /* line 1471, ../sass/style.scss */
+  /* line 1475, ../sass/style.scss */
   .rightTimesEco2 .timesEcoBlock2 .timesText2 {
     font-size: 11px;
   }
 
-  /* line 1475, ../sass/style.scss */
+  /* line 1479, ../sass/style.scss */
   .consultBg .consultForm {
     padding-top: 10px;
     display: block;
     width: 100%;
   }
 
-  /* line 1481, ../sass/style.scss */
+  /* line 1485, ../sass/style.scss */
   .consultBg .consultForm .consultInput,
   .consultBg .consultForm .myBtnStyle {
     width: 270px;
@@ -1447,46 +1451,46 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
   }
 
-  /* line 1488, ../sass/style.scss */
+  /* line 1492, ../sass/style.scss */
   .closedWorkWrapper {
     margin: 30px 0;
     display: block;
   }
 
-  /* line 1493, ../sass/style.scss */
+  /* line 1497, ../sass/style.scss */
   .closedWorkWrapper .closedWorkText .bordAllTextStyle {
     margin: 0 0 20px 0;
   }
 
-  /* line 1497, ../sass/style.scss */
+  /* line 1501, ../sass/style.scss */
   .closedWorkWrapper .closedWorkText,
   .closedSlider {
     padding: 0;
   }
 
-  /* line 1502, ../sass/style.scss */
+  /* line 1506, ../sass/style.scss */
   .blockVideoWrapper .videoTtitlesBold {
     margin-top: 30px;
     font-size: 14px;
   }
 
-  /* line 1507, ../sass/style.scss */
+  /* line 1511, ../sass/style.scss */
   .blockVideoWrapper .videoTtitlesRegular {
     font-size: 14px;
     margin-bottom: 25px;
   }
 
-  /* line 1512, ../sass/style.scss */
+  /* line 1516, ../sass/style.scss */
   .blockVideoWrapper .rightVideoAndTitles {
     padding: 0;
   }
 
-  /* line 1516, ../sass/style.scss */
+  /* line 1520, ../sass/style.scss */
   .mapWrapper .mapForm.formBoxAll .formBox .titlesForm {
     font-size: 17px;
   }
 
-  /* line 1520, ../sass/style.scss */
+  /* line 1524, ../sass/style.scss */
   .mapWrapper .mapForm.formBoxAll .formBox .telephoneForm,
   .mapWrapper .mapForm.formBoxAll .formBox .textProject,
   .mapWrapper .mapForm.formBoxAll .formBox .myBtnStyle {
@@ -1496,41 +1500,41 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
   }
 
-  /* line 1529, ../sass/style.scss */
+  /* line 1533, ../sass/style.scss */
   .footerWrapper .footerLogo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 1536, ../sass/style.scss */
+  /* line 1540, ../sass/style.scss */
   .footerWrapper .footerLogo .copyRight {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
   }
 
-  /* line 1542, ../sass/style.scss */
+  /* line 1546, ../sass/style.scss */
   .footerWrapper .footerInfo .telephoneNumber,
   .footerWrapper .footerInfo .footerInfoList {
     text-align: center;
   }
 
-  /* line 1547, ../sass/style.scss */
+  /* line 1551, ../sass/style.scss */
   .modal {
     width: 310px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
-  /* line 1553, ../sass/style.scss */
+  /* line 1557, ../sass/style.scss */
   .modal-content {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
 }
-/* line 1560, ../sass/style.scss */
-.slick-dots li {
-  display: none;
+/* line 1564, ../sass/style.scss */
+.paddingStyle {
+  padding-bottom: 70px;
 }

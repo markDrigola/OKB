@@ -689,7 +689,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .rightTimesEco {
-  padding-left: 90px;
+  padding-left: 74px;
 
   .timesEcoBlock {
     position: relative;
@@ -808,7 +808,7 @@ h1,h2,h3,h4,h5,h6 {
     &:before {
       position: absolute;
       content: '';
-      left: -40px;
+      left: -56px;
       top: 4px;
       margin: auto;
       background: url(../img/clock.png) no-repeat center;
@@ -929,9 +929,12 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0;
 
     iframe {
-      width: 100%;
+      width: 90%;
       height: 220px;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
     }
   }
 
@@ -1023,8 +1026,9 @@ h1,h2,h3,h4,h5,h6 {
 
     .copyRight {
       @include regF;
-      margin-top: 32px;
+      margin-top: 150px;
       font-size: 16px;
+      margin-bottom: 20px;
     }
   }
 
@@ -1057,7 +1061,7 @@ h1,h2,h3,h4,h5,h6 {
         @include boldF;
 
         &:last-child {
-          margin-top: 20px;
+          margin-top: 50px;
         }
       }
     }
@@ -1557,6 +1561,13 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
-.slick-dots li {
-  display: none;
+.paddingStyle {
+  padding-bottom: 70px;
 }
+
+.activeSlide2 {
+
+}
+//.slick-dots li {
+//  display: none;
+//}
