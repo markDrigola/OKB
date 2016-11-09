@@ -128,6 +128,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .wrapperHeader {
+  height: 130px;
   padding: 15px 0 15px 0;
 
   .logo {
@@ -135,8 +136,8 @@ h1,h2,h3,h4,h5,h6 {
 
     img {
       width: 230px;
-      height: 170px;
-      margin-top: -40px;
+      //height: 170px;
+      //margin-top: -40px;
       margin-left: -15px;
     }
 
@@ -148,6 +149,7 @@ h1,h2,h3,h4,h5,h6 {
       font-size: 13px;
       text-transform: uppercase;
       line-height: 16px;
+      display: none;
     }
   }
 
@@ -175,7 +177,7 @@ h1,h2,h3,h4,h5,h6 {
       padding-bottom: 20px;
 
       img {
-        width: 100%;
+        //width: 100%;
       }
     }
 
@@ -219,7 +221,7 @@ h1,h2,h3,h4,h5,h6 {
     }
     
     .slick-prev {
-      background: url("../img/leftArrow.png") no-repeat center;
+      background: url("../img/prevArrowBg.png") no-repeat center;
       left: 0;
       width: 26px;
       height: 43px;
@@ -227,7 +229,7 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .slick-next {
-      background: url("../img/rightArrow.png") no-repeat center;
+      background: url("../img/nextArrNoBg.png") no-repeat center;
       right: 0;
       width: 26px;
       height: 43px;
@@ -371,20 +373,20 @@ h1,h2,h3,h4,h5,h6 {
       }
     }
 
-    &:hover {
-      .borderInsetBlock {
-        width: 129px;
-        height: 127px;
-      }
-
-      .galTextblockIns {
-        opacity: 0;
-
-        .insertTextGal {
-          margin-top: -100px;
-        }
-      }
-    }
+    //&:hover {
+    //  .borderInsetBlock {
+    //    width: 129px;
+    //    height: 127px;
+    //  }
+    //
+    //  .galTextblockIns {
+    //    opacity: 0;
+    //
+    //    .insertTextGal {
+    //      margin-top: -100px;
+    //    }
+    //  }
+    //}
   }
 
   .gal1 {
@@ -486,7 +488,7 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .slick-prev {
-      background: url("../img/leftArrow.png") no-repeat center;
+      background: url("../img/prevArrowBg.png") no-repeat center;
       left: 0;
       width: 26px;
       height: 43px;
@@ -494,7 +496,7 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .slick-next {
-      background: url("../img/rightArrow.png") no-repeat center;
+      background: url("../img/nextArrNoBg.png") no-repeat center;
       right: 0;
       width: 26px;
       height: 43px;
@@ -881,7 +883,7 @@ h1,h2,h3,h4,h5,h6 {
       }
 
       .slick-prev {
-        background: url("../img/leftArrow.png") no-repeat center;
+        background: url("../img/prevArrowBg.png") no-repeat center;
         left: 0;
         width: 26px;
         height: 43px;
@@ -889,7 +891,7 @@ h1,h2,h3,h4,h5,h6 {
       }
 
       .slick-next {
-        background: url("../img/rightArrow.png") no-repeat center;
+        background: url("../img/nextArrNoBg.png") no-repeat center;
         right: 0;
         width: 26px;
         height: 43px;
@@ -1003,8 +1005,8 @@ h1,h2,h3,h4,h5,h6 {
   .footerLogo {
     img {
       width: 230px;
-      height: 170px;
-      margin-top: -40px;
+      //height: 170px;
+      //margin-top: -40px;
       margin-left: -15px;
     }
 
@@ -1016,6 +1018,7 @@ h1,h2,h3,h4,h5,h6 {
       font-size: 13px;
       text-transform: uppercase;
       line-height: 16px;
+      display: none;
     }
 
     .copyRight {
@@ -1265,7 +1268,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media (max-width: 767px) {
   .wrapperHeader .logo img {
-    width: 100%;
+    //width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1527,7 +1530,7 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -60px;
+    //margin-top: -60px;
   }
 
   .footerWrapper .footerLogo .copyRight {
@@ -1552,4 +1555,8 @@ h1,h2,h3,h4,h5,h6 {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.slick-dots li {
+  display: none;
 }
