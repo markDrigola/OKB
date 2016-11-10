@@ -432,6 +432,7 @@ h1,h2,h3,h4,h5,h6 {
       margin-right: 13px;
       margin-bottom: 13px;
       float: left;
+      cursor: pointer;
 
       &:nth-child(3n+3) {
         margin-right: 0;
