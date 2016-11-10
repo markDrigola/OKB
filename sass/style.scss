@@ -569,6 +569,7 @@ h1,h2,h3,h4,h5,h6 {
       @include boldF;
       margin: 0 0 20px 0;
       font-size: 24px;
+      line-height: 35px;
     }
 
     .docAll {
@@ -1568,6 +1569,20 @@ h1,h2,h3,h4,h5,h6 {
 .activeSlide2 {
 
 }
+
 .slick-dots li {
   display: none;
+}
+
+.imgActive_1 {
+  display: none;
+}
+
+.blockGal2All.slideClickLeft.activeSlide2 > .imgActive_1 {
+  display: block;
+  height: 100%;
+  position: absolute;
+  background: url("../img/gal2-1.jpg") no-repeat center;
+  width: 100%;
+  background-size: cover;
 }
